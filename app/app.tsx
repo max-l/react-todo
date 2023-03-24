@@ -1,6 +1,8 @@
 import { useEffect, useState, useMemo } from "npm:react";
 import namor from 'npm:namor'
-import { useTable } from 'npm:react-table'
+import reactTable from 'npm:react-table'
+
+const { useTable } = reactTable
 
 
 
