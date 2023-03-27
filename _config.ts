@@ -10,6 +10,10 @@ site
   .ignore("app")
   .use(esbuild({
     extensions: [".jsx"],
+    options: {
+        jsxDev: true,
+        minify: false
+    }
   }))
   .use(lightningcss())
   .use(sourceMaps({
